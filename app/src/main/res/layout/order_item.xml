@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="90"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/order_photo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="80"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/order_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/order_description"
+            android:textSize="@dimen/fontsize_description"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp"
+            android:paddingStart="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/order_plus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/order_plus"
+                android:textStyle="bold"
+                android:textSize="@dimen/fontsize_plusminus"
+                android:background="@drawable/unique_button_form"
+                android:textColor="@color/white"
+                android:shadowColor="@color/black"
+                android:shadowRadius="0.005"
+                android:shadowDx="1.5"
+                android:shadowDy="1.5"
+                android:backgroundTint="@color/plus_btn_color"/>
+
+            <TextView
+                android:id="@+id/order_quantity"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/order_quantity"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="@dimen/fontsize_plusminus"
+                />
+
+            <Button
+                android:id="@+id/order_minus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                style="@style/Theme.MinusButtonStyle"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+            <TextView
+                android:id="@+id/price_order"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/order_default_price"
+                android:textSize="@dimen/fontsize_price"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/bonus_price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/order_bonus_price"
+                android:visibility="gone"
+                android:textSize="@dimen/fontsize_wowprice"
+                android:textColor="@color/wow_price"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/order_delete"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:layout_gravity="center"
+        android:src="@drawable/delete_icon"/>
+
+
+
+
+
+
+</LinearLayout>

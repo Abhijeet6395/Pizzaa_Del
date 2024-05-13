@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_pizza_selected_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- FrameLayout for image and button back -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/pizza_photo_selected"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_default_pizza"/>
+
+        <Button
+            android:id="@+id/button_back"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_back"
+            android:layout_margin="5dp" />
+    </FrameLayout>
+
+    <!--Title Description and ingredients -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_pizza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_title"
+            android:gravity="start"
+            android:paddingStart="@dimen/padding_title"
+            android:textSize="@dimen/fontsize_title"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/description_pizza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_description"
+            android:gravity="start"
+            android:paddingStart="@dimen/padding_description"
+            android:textSize="@dimen/fontsize_description_selectpage"
+            android:textColor="@color/black"
+            android:textAllCaps="false"/>
+
+        <TextView
+            android:id="@+id/ingredients_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/default_ingredients"
+            android:gravity="start"
+            android:textSize="@dimen/fontsize_description"
+            android:paddingStart="@dimen/padding_ingredient"
+            android:textColor="@color/black"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+    
+    <!--Change ingredients layout -->
+    <RelativeLayout
+        android:id="@+id/change_ingredients_button"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:clickable="true"
+        android:focusable="true">
+        
+        <ImageView
+            android:id="@+id/icon_filter"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/ic_baseline_filter_list_24"
+            android:layout_marginStart="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textAllCaps="false"
+            android:text="@string/change_ingredients_txt"
+            android:layout_toRightOf="@id/icon_filter"
+            android:layout_marginStart="15dp"/>
+    </RelativeLayout>
+    
+    <!-- Traditional or Thin -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:layout_marginBottom="25dp"
+            android:orientation="horizontal"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp">
+
+            <TextView
+                android:id="@+id/final_price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="30"
+                android:text="$0"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/add_to_cart"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="70"
+                android:text="@string/add_to_cart"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@drawable/add_to_cart_button"/>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    
+</LinearLayout>

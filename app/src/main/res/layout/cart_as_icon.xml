@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/lg"
+    android:orientation="horizontal"
+    android:gravity="start"
+    android:layout_gravity="start"
+    android:layout_marginEnd="10dp"
+    >
+
+    <TextView
+        android:id="@+id/cart_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="bottom|end"
+        android:text="0"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_alignBottom="@id/cart_icon"
+        android:layout_toEndOf="@id/cart_icon"
+        android:shadowRadius="1"
+        android:shadowColor="@color/black"
+        android:shadowDx="1.5"
+        android:shadowDy="1.5"
+        android:textStyle="bold"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="7dp"
+        android:foregroundGravity="left"/>
+
+    <com.joanzapata.iconify.widget.IconButton
+        android:id="@+id/cart_icon"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:scaleType="fitXY"
+        android:background="@drawable/ic_baseline_shopping_cart_24"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>
+

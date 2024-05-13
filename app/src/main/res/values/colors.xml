@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#888888</color><!--#FF6200EE-->
+    <color name="purple_700">#FFA726</color> <!-- -->
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="black95">#95000000</color>
+    <color name="button_back_unpressed_color">#F8C896</color>
+
+    <color name="button_back_pressed_color">#9EFFE9</color>
+
+    <color name="button_add_to_cart_unpressed_color">#348740</color>
+    <color name="button_add_to_cart_pressed_color">#C1FFCA</color>
+
+    <color name="play_color">#0096FF</color>
+
+    <color name="choose_item_on_a_list_color">#81C784</color>
+
+    <color name="wow_price">#D50000</color>
+
+    <color name="strike_default_price_color">#E53935</color>
+    
+    <color name="plus_btn_color">#81C784</color>
+    <color name="minus_btn_color">#E57373</color>
+
+    <color name="minus_btn_color_dis">#FFCDD2</color>
+
+    <color name="back_select_unpressed">#555555</color>
+    <color name="back_select_pressed">#333333</color>
+
+
+    <color name="primaryColor">#FF8C00</color>
+
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="navigation_bot_color">#F9F6EE</color>
+
+    <color name="login_password_color">#EDEADE</color>
+    <color name="submit_btn_color">#2E7D32</color>
+
+
+</resources>

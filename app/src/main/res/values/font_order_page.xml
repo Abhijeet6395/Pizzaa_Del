@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontsize_description">15sp</dimen>
+    <dimen name="fontsize_price">18sp</dimen>
+    <dimen name="fontsize_wowprice">20sp</dimen>
+    <dimen name="fontsize_plusminus">18sp</dimen>
+    <dimen name="fontsize_overallprice">22sp</dimen>
+</resources>

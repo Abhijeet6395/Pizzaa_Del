@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">RellaRella</string>
+    <string name="default_title">This is a title</string>
+    <string name="default_description">This is a description</string>
+    <string name="default_ingredients">This is some ingredients</string>
+    <string name="change_ingredients_txt">Change ingredients</string>
+    <string name="add_to_cart">Add to cart</string>
+
+    <!-- item_pizza.xml - Food Cell -->
+    <string name="food_title">PIZZA MOZZARELLA</string>
+    <string name="food_description">It is the best pizza ever</string>
+    <string name="food_price">from: $%s</string>
+    <string name="food_choose_button">Choose</string>
+
+
+    <!-- order_item.xml - Cart order cell -->
+    <string name="order_default_price">price is</string>
+    <string name="order_bonus_price">bonus price</string>
+    <string name="order_plus">+</string>
+    <string name="order_minus">-</string>
+    <string name="order_quantity">%d</string>
+    <string name="order_description">Pizzas ingredients are:</string>
+
+
+    <!-- cart_layout.xml - Cart Page -->
+    <string name="make_order">Make Order</string>
+    <string name="overall_price_order">$overall</string>
+
+    <!--OfferPage 50% -->
+    <string name="link_to_theme">https://raw.githubusercontent.com/ArtemBatkov/RellaRella-PizzaMozzarella/master/RellaRellaTheme.mp3</string>
+
+</resources>

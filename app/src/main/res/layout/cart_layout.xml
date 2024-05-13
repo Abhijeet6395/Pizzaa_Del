@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginLeft="5dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/order_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="90"/>
+
+    <TextView
+        android:id="@+id/overall_price"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:text="@string/overall_price_order"
+        android:gravity="center"
+        android:textSize="@dimen/fontsize_overallprice"/>
+
+    <Button
+        android:id="@+id/confirm_order"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:layout_gravity="center"
+        android:text="@string/make_order"
+        android:paddingLeft="25dp"
+        android:background="@drawable/unique_button_form"
+        android:backgroundTint="#2E7D32"
+        android:paddingRight="25dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"/>
+
+</LinearLayout>

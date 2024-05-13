@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fontsize_login_label">24sp</dimen>
+    <dimen name="fontsize_login">18sp</dimen>
+    <dimen name="fontsize_password">18sp</dimen>
+    <dimen name="fontsize_submit_signin">18sp</dimen>
+</resources>

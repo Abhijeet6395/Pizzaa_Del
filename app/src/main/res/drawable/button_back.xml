@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true" android:drawable="@drawable/back_button_pressed" />
+    <item android:state_pressed="false" android:drawable="@drawable/back_button_unpressed" />
+    <item android:drawable="@drawable/ic_baseline_arrow_back_24" android:gravity="center"/>
+
+</layer-list>
+-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#C064DD17" />
+                    <corners android:radius="7dp"/>
+                </shape>
+            </item>
+            <item>
+                <vector xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:width="24dp"
+                    android:height="24dp"
+                    android:viewportWidth="24"
+                    android:viewportHeight="24">
+                    <path
+                        android:strokeColor="#C0C0C0"
+                        android:strokeWidth="0.25"
+                        android:fillColor="@color/back_select_pressed"
+                        android:pathData="M20,11H7.83l5.59,-5.59L12,4l-8,8l8,8l1.41,-1.41L7.83,13H20v-2z"/>
+                </vector>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="#C0FFFFFF" />
+                    <corners android:radius="7dp"/>
+                </shape>
+            </item>
+            <item>
+                <vector xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:width="24dp"
+                    android:height="24dp"
+                    android:viewportWidth="24"
+                    android:viewportHeight="24">
+                    <path
+                        android:strokeColor="#C0C0C0"
+                        android:strokeWidth="0.25"
+                        android:fillColor="@color/back_select_unpressed"
+                    android:pathData="M20,11H7.83l5.59,-5.59L12,4l-8,8l8,8l1.41,-1.41L7.83,13H20v-2z"/>
+                </vector>
+            </item>
+        </layer-list>
+    </item>
+</selector>
+
+
+

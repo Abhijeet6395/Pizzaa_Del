@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- title -->
+    <dimen name="padding_title">20dp</dimen>
+    <dimen name="fontsize_title">24sp</dimen>
+
+    <!-- description -->
+    <dimen name="padding_description">10dp</dimen>
+    <dimen name="fontsize_description_selectpage">16sp</dimen>
+
+    <!-- ingredient -->
+    <dimen name="padding_ingredient">10dp</dimen>
+    <dimen name="fontsize_ingredient">16sp</dimen>
+
+
+</resources>
